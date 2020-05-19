@@ -1,0 +1,5 @@
+PROGRAM  factorial  
+WITH i, n, factorial AS INTEGER 
+IN i = 5
+n=(2*3) 
+END

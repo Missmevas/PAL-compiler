@@ -1,0 +1,16 @@
+PROGRAM fibonacci
+WITH
+    a, b, c, temp AS INTEGER
+    d AS REAL
+IN
+    a = 1
+    b = 1
+    UNTIL c > 100 REPEAT
+        OUTPUT b
+        temp = b
+        b = a + b
+        a = temp
+        c = c + 1
+    ENDLOOP
+END
+

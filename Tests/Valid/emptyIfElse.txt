@@ -1,0 +1,10 @@
+PROGRAM HelloWorld
+WITH
+    a, b AS REAL
+    i AS INTEGER
+IN
+    INPUT a , b
+    IF a > b THEN
+    ELSE
+    ENDIF
+END

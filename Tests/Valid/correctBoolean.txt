@@ -1,0 +1,21 @@
+PROGRAM HelloWorld
+WITH
+    a, b AS REAL
+    i AS INTEGER
+IN
+    UNTIL i > 100 REPEAT
+        INPUT a , b
+        IF a > b THEN
+            b = a + b / 2.0
+            i = i + 2
+        ELSE
+            a = a / 2.0 - b
+            i = i + 2
+            IF i > 1000/3 THEN
+                OUTPUT a
+            ENDIF
+        ENDIF
+        OUTPUT i, 5, 5.0/1.123
+        OUTPUT a, b
+    ENDLOOP
+END

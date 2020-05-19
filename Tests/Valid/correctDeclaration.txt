@@ -1,0 +1,13 @@
+PROGRAM Factorial 
+WITH
+    i, n, factorial AS INTEGER
+    test AS INTEGER
+    test2, test3 AS REAL
+IN
+    INPUT i
+    n = 1
+    UNTIL n = i REPEAT 
+        factorial = factorial * i
+    ENDLOOP
+    OUTPUT factorial
+END

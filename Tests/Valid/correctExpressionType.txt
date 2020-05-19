@@ -1,0 +1,10 @@
+PROGRAM SumAndProduct 
+WITH
+    i, j AS REAL
+    k,l AS INTEGER
+IN
+    INPUT i, j,l,k
+    OUTPUT i * 2.5
+    OUTPUT i * j
+    OUTPUT l * (k * 7 + 3)
+END

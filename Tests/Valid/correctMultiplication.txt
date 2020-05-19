@@ -1,0 +1,7 @@
+PROGRAM SumAndProduct 
+WITH i, j AS REAL
+IN
+    i = 128.8
+    j = 1.4
+    OUTPUT i * j
+END

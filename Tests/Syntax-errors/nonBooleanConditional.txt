@@ -1,0 +1,9 @@
+PROGRAM SyntaxVar
+WITH
+    a, b AS REAL
+    i AS INTEGER
+IN
+    IF a + b THEN
+        OUTPUT i
+    ENDIF
+END

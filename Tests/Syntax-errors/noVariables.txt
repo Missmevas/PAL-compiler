@@ -1,0 +1,5 @@
+PROGRAM NoVariables
+IN
+    OUTPUT 2.0 + 5.0
+END
+

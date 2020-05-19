@@ -1,0 +1,6 @@
+PROGRAM HelloWorld
+WITH
+    a, b AS REAL
+    i AS INTEGER
+IN
+END

@@ -1,0 +1,10 @@
+PROGRAM factorial
+WITH i, n, factorial AS STRING
+IN
+    INPUT i
+    n = 1
+    UNTIL n = i REPEAT
+        factorial = factorial * i
+    ENDLOOP
+    OUTPUT factorial
+END

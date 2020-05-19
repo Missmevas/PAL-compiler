@@ -1,0 +1,9 @@
+PROGRAM SyntaxVar
+WITH
+    a, b AS REAL
+    i
+IN
+    a = 1.0
+    b = 2.0
+    i = 1.0
+END

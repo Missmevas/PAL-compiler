@@ -1,0 +1,3 @@
+PROGRAM NoProgram
+WITH i, j, k AS INTEGER
+

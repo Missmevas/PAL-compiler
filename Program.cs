@@ -1,8 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
-
-
 
 namespace AllanMilne.PALCompiler
 {
@@ -26,11 +24,9 @@ namespace AllanMilne.PALCompiler
             else 
             {
                 Console.WriteLine("Provide the name of the folder containing test suite");
-                //String folderName = "C:/Users/Doris/Desktop/PALTests/semantic-errors";
                 String folderName = Console.ReadLine();
                 Console.WriteLine("\n");
 
-               
                 DirectoryInfo directory = new DirectoryInfo(@folderName);
                 FileInfo[] Files = directory.GetFiles("*.txt"); //Get files
 
@@ -38,7 +34,6 @@ namespace AllanMilne.PALCompiler
                 {
                     StreamReader source = new StreamReader(folderName + "/" + file.Name);
                     Console.WriteLine(file.Name);
-
 
                     customParser parser = new customParser();
                     PALScanner scanner = new PALScanner();
@@ -50,10 +45,7 @@ namespace AllanMilne.PALCompiler
                 }
             }
 
-            Console.ReadKey();
-
-            
-
+            Console.ReadKey();      
 
         }
     }
